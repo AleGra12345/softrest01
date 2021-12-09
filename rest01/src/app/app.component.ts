@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+// commmmmm cont
   contatore: number = 0;
   
   incrementa() {
