@@ -32,7 +32,7 @@ export class AppComponent {
       });
   }
 }
-
+// commento++++----
 export class Riga {
   userId: number = 0;
   id: number = 0;
