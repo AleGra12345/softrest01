@@ -9,6 +9,13 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
 
+  contatore: number = 0;
+  
+  incrementa() {
+    this.contatore++;
+    console.log(this.contatore);
+  }
+  
   righe: Riga[] = [];
 
   // 1) Angular instanzia un oggetto di tipi HttpClient e lo passa come argomento
